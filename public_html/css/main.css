@@ -1,0 +1,12 @@
+/*  Author     : Starnicicu Mihai
+*/
+.container { width: 1000px; margin: 0 auto; }
+.container h1 { color: #573615; font-size: 22px; font-weight: bold; }
+.container .into { float: left; width: 600px; margin-right: 70px; }
+.container .first-block { float: left; margin-right: 80px; }
+
+.first-step { padding-top: 60px; background-color: #f4ffec; }
+
+.second-step { background-color: #eeedeb; padding-top: 60px; }
+
+/*# sourceMappingURL=main.css.map */
