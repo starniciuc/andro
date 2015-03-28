@@ -2,11 +2,44 @@
 */
 .container { width: 1000px; margin: 0 auto; }
 .container h1 { color: #573615; font-size: 22px; font-weight: bold; }
+.container p { color: #333333; font-size: 12px; }
 .container .into { float: left; width: 600px; margin-right: 70px; }
 .container .first-block { float: left; margin-right: 80px; }
+.container .item-news { padding-bottom: 20px; }
+.container .item-news .image-block { width: 242px; float: left; margin-right: 60px; }
+.container .item-news .image-block img { width: 100%; }
+.container .item-news:after { display: table; content: " "; clear: both; }
+.container .video-block { padding: 0 0 30px 0; }
+.container .footer-section { padding-top: 40px; }
+.container .footer-section button { float: left; margin-right: 15px; vertical-align: middle; }
+.container .footer-section h1 { float: left; vertical-align: middle; margin: 0; padding: 0; }
+.container ul { padding-left: 60px; }
+.container ul li { margin-bottom: 10px; }
+.container .left-block { float: left; text-align: left; }
+.container .right-block { float: right; text-align: right; }
+.container .clear { display: table; clear: both; }
+.container .form-block { border: 1px solid #99bad7; border-radius: 3px; width: 580px; margin-top: 20px; margin-bottom: 20px; background-color: #f1f5fa; }
+.container .form-block .form-head { height: 42px; width: 100%; }
+.container .form-block .form-content { background-color: #FFFFFF; padding: 15px; border-radius: 3px; border: 1px solid #99bad7; border-left: 0; border-right: 0; }
+.container .form-block .form-content .form-group { margin-bottom: 10px; }
+.container .form-block .form-content .form-group .label-side { width: 160px; display: inline-block; vertical-align: top; }
+.container .form-block .form-content .form-group .label-side label { font-weight: normal; color: #333333; font-size: 12px; line-height: 28px; }
+.container .form-block .form-content .form-group .input-side { width: 354px; display: inline-block; }
+.container .form-block .form-content .form-group .input-side input, .container .form-block .form-content .form-group .input-side textarea { border-radius: 3px; box-shadow: none; border: 1px solid #a9a9a9; font-size: 16px; padding: 5px; width: 100%; }
+.container .form-block .form-content .form-group:after { display: table; content: " "; clear: both; }
+.container .form-block .button-form { height: auto; padding: 10px 15px; }
+.container .form-block .button-form .btn-andro { padding: 4px 40px; border-radius: 3px; }
 
 .first-step { padding-top: 60px; background-color: #f4ffec; }
+.first-step.three { padding-top: 20px; }
 
 .second-step { background-color: #eeedeb; padding-top: 60px; }
+.second-step.two { padding-bottom: 50px; }
+.second-step.two button.btn-andro { margin-top: 20px; }
+.second-step.five { padding-top: 30px; padding-bottom: 30px; }
+.second-step.five p { margin: 0; }
+.second-step.five h1 { margin: 0; padding: 0; line-height: 30px; }
+
+.btn-andro { background: none; background-color: #a7d06a; border-radius: 0; border: 0; color: #ffffff; padding: 8px 25px; }
 
 /*# sourceMappingURL=main.css.map */
