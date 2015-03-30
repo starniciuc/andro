@@ -22,6 +22,8 @@
     .first-block{
         float: left;
         margin-right: 80px;
+
+
     }
 
     .item-news{
@@ -49,7 +51,7 @@
     }
 
     .footer-section{
-        padding-top: 40px;
+        padding-top: 10px;
 
         button{
             float: left;
@@ -92,7 +94,6 @@
         border-radius: 3px;
         width: 580px;
         margin-top: 20px;
-        margin-bottom: 20px;
         background-color: #f1f5fa;
 
         .form-head{
@@ -110,12 +111,12 @@
 
             .form-group{
                 margin-bottom: 10px;
-                
+
                 .label-side{
                     width: 160px;
                     display: inline-block;
                     vertical-align: top;
-                    
+
                     label{
                         font-weight: normal;
                         color: #333333;
@@ -123,11 +124,11 @@
                         line-height: 28px; 
                     }
                 }
-                
+
                 .input-side{
                     width: 354px;
                     display: inline-block;
-                    
+
                     input, textarea{
                         border-radius: 3px;
                         box-shadow: none;
@@ -137,7 +138,7 @@
                         width: 100%;
                     }
                 }
-                
+
                 &:after{
                     display: table;
                     content: " ";
@@ -148,7 +149,7 @@
         .button-form{
             height: auto;
             padding: 10px 15px;
-            
+
             .btn-andro{
                 padding: 4px 40px;
                 border-radius: 3px;
@@ -163,6 +164,10 @@
     &.three{
         padding-top: 20px;
     }
+
+	&.last{
+		padding-bottom: 30px;
+	}
 }
 
 .second-step{
@@ -202,9 +207,3 @@
 .maps{
     border-top: 3px solid #FFFFFF;
 }
-/*[data-toggle="play-animation"][data-offset] {
-  visibility: hidden;
-}
-[data-toggle="play-animation"][data-offset].anim-done {
-  visibility: visible;
-}*/
