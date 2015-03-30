@@ -1,5 +1,7 @@
 /*  Author     : Starnicicu Mihai
 */
+main { overflow: hidden; width: 100%; }
+
 .container { width: 1000px; margin: 0 auto; }
 .container h1 { color: #573615; font-size: 22px; font-weight: bold; }
 .container p { color: #333333; font-size: 12px; }
