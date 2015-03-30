@@ -208,13 +208,13 @@
               $.Utils.isInView(element, {topoffset: offset})) {
           element
             .addClass('anim-running');
-
+         
           setTimeout(function() {
             element
               .addClass('anim-done')
               .animo( { animation: animation, duration: 0.7} );
           }, delay);
-
+           
         }
       }
 
