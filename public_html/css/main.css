@@ -6,6 +6,8 @@ main { overflow: hidden; width: 100%; }
 .container h1 { color: #573615; font-size: 22px; font-weight: bold; }
 .container p { color: #333333; font-size: 12px; }
 .container .into { float: left; width: 600px; margin-right: 70px; }
+.container .into ul li { font-size: 15px; }
+.container .into ul li strong { font-weight: 600; }
 .container .first-block { float: left; margin-right: 80px; }
 .container .item-news { padding-bottom: 20px; }
 .container .item-news .image-block { width: 242px; float: left; margin-right: 60px; }

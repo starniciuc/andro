@@ -21,6 +21,13 @@ main{
         float: left;
         width: 600px;
         margin-right: 70px;
+		
+		ul li{
+			font-size: 15px;
+			strong{
+				font-weight: 600;
+			}
+		}
     }
 
     .first-block{
