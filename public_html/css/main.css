@@ -6,7 +6,7 @@ main { overflow: hidden; width: 100%; }
 .container h1 { color: #573615; font-size: 22px; font-weight: bold; }
 .container p { color: #333333; font-size: 12px; }
 .container .into { float: left; width: 600px; margin-right: 70px; }
-.container .into ul li { font-size: 15px; }
+.container .into ul li { font-size: 16px; }
 .container .into ul li strong { font-weight: 600; }
 .container .first-block { float: left; margin-right: 80px; }
 .container .item-news { padding-bottom: 20px; }
@@ -48,3 +48,5 @@ main { overflow: hidden; width: 100%; }
 .btn-andro { background: none; background-color: #a7d06a; border-radius: 0; border: 0; color: #ffffff; padding: 8px 25px; }
 
 .maps { border-top: 3px solid #FFFFFF; }
+
+/*# sourceMappingURL=main.css.map */
